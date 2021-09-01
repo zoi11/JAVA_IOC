@@ -9,4 +9,4 @@
  * In the injectObjects method, I first checked Autowired annotation. If map return null, I will use try-catch block to see if there is a Qualifier annotation.
  * If one interface has several implementations and does not provide Qualifier annotations, which means inject by type, then it will throw exceptions.
  * And if one interface only has one implementation, then injectObjects method will use interface type to find the corresponding singleton in the hashmap.
- * 
+ 
