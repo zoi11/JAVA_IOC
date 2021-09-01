@@ -1,6 +1,6 @@
 # JAVA_IOC
 
-/**In this ioc implementation, I added some features, like Qualifier annotation, inject by name.
+/*In this ioc implementation, I added some features, like Qualifier annotation, inject by name.
  * I hard coded the file read part, to load all the component classes into an array.
  * I modified the register method. While put class-singleton key-value pair into hashmap, I also use reflect to retrieve the interface type.
  * If the interface only have one implementation, then I will put the corresponding singleton into the map. If one interface has several implementations,
